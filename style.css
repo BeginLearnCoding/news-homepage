@@ -1,0 +1,162 @@
+@font-face {
+    font-family: interFont;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-family: interBold;
+    src: url(fonts/static/Inter-Bold.ttf);
+}
+
+body {
+    font-family: 'interFont', sans-serif;
+    margin: 0 ;
+    padding: 0;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    margin: 20px 60px;
+    padding: 40px;
+    border: 1px solid #fff;
+    width: auto;
+    height: 50px;
+}
+header img {
+    width: auto;
+    height: 50px;
+}
+header nav {
+    width: 100%;
+    padding: 0px;
+    height: 50px;
+    text-align: right;
+}
+ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+ul li a {  
+    color: #A09DA3;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+main {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 0px 60px;
+    padding: 0px 40px;
+    border: 1px solid #fff;
+}
+main .top-content {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-right: 5%;
+
+}
+main .top-content .web-3 {
+    width: 100%;
+    height: auto;    
+}
+.content-below-web3 {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    padding: 0;
+}
+.content-below-web3 h1 {
+    width: 40%;
+    height: auto;
+    padding-right: 30px;
+    font-family: 'interBold',sans-serif;
+}
+.content-right-of-h1 {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 0px;
+    margin-left: 12%;
+    padding: 10px;
+    
+}
+.content-right-of-h1 button {
+    background-color: #00001A;
+    color: #fff;
+    border: 1px solid #00001A;
+    padding: 10px 30px;
+    margin: 15px 0px;
+    text-align: center;
+}
+.side-bar-right {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 20px 10px;
+    background-color: #00001A;
+    color: #fff;
+}
+.side-bar-right h2 {
+    color: #D09C57;
+}
+footer {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 40px 60px;
+    padding: 0px 40px;
+    border: 1px solid #fff;
+}
+.O1 {
+    display: flex;
+    
+}
+.O1 img {
+    width: auto;
+    height: 150px;
+    margin-top: 10px;
+}
+.O1 .content1 {
+    margin: 0px 20px;
+}
+.O1 .content1 h2, .O1 .content1 p {
+    color: #C8C5CC;
+}
+
+.O2 {
+    display: flex;
+    
+}
+.O2 img {
+    width: auto;
+    height: 150px;
+    margin-top: 10px;
+}
+.O2 .content2 {
+    margin: 0px 20px;
+}
+.O2 .content2 h2, .O2 .content2 p {
+    color: #C8C5CC;
+}
+
+.O3 {
+    display: flex;
+    
+}
+.O3 img {
+    width: auto;
+    height: 150px;
+    margin-top: 10px;
+}
+.O3 .content3 {
+    margin: 0px 20px;
+}
+.O3 .content3 h2, .O3 .content3 p {
+    color: #C8C5CC;
+}
